@@ -1,3 +1,5 @@
+Based on https://www.railstutorial.org
+
 Run the following commands in the console below:
 
 1. `cd ~/workspace/rails_tutorial`
@@ -10,3 +12,11 @@ Run tests
 
 1. `bundle exec rake db:test:prepare`
 2. `bundle exec rspec spec`
+
+
+Features to add:
+----
+
+1. As a first signed up user, I becomes super admin
+2. As a super admin I can delete other users
+3. As a super admin I can approve/reject micropost
